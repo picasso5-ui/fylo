@@ -356,13 +356,13 @@ width: 30px;
 color: white;
 }
 /*mobile */
-@media screen and (max-width:480px) and (min-width:320px){
+@media screen and (max-width:375px){
     html{
         font-size: 14px;
         width: 100%;
         align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
    }
    h2{
        font-size: 20px;
@@ -467,7 +467,8 @@ footer{
     column-gap: 0;
     width: 100%;
     margin: auto;
-    padding: 100% 20%;
+    align-items: center;
+    padding: 190px 100px ;
     font-family: sans-serif;
     text-align: center;
     grid-template-areas: 
