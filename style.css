@@ -361,6 +361,14 @@ color: white;
         font-size: 14px;
         width: 100%;
         align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+   }
+   h2{
+       font-size: 20px;
+   }
+   h3{
+       font-size: 25px;
    }
    .brand-logo img{
        width: 70px;
@@ -371,6 +379,10 @@ color: white;
    .hero{
        width: 100%;
        height: auto;
+       font-family: sans-serif;
+   }
+   .first-header{
+       font-size: 25px;
    }
    .hero img{
        width:250px ;
@@ -381,6 +393,8 @@ color: white;
    }
    .flex-begins{
        flex-direction: column;
+       font-family: sans-serif;
+       font-size: 15px;
    }
    .stay{
        margin-bottom: 35px;
@@ -388,22 +402,38 @@ color: white;
    }
    .stay-wherever{
     margin-top: 50px;
+    
+   }
+   .stay-wherever h2{
+       font-size: 25px;
    }
    .testimonials{
        margin-top: 120px;
        flex-direction: column;
        margin-bottom: 120px;
+       font-family: sans-serif;
+       font-size: 16px;
 }
 .test-second-left{
     margin-bottom: 20px;
+    padding: 10px 40px;
 }
 .test-second-middle{
     margin-bottom: 20px;
 
 }
+.test-second-right{
+    padding: 10px 40px;
+
+}
+.test-second-right{
+    margin-bottom: 20px;
+
+}
 .sign-up{
     padding: 30px 0 80px ;
-    width: 60%;
+    width: 90%;
+
 }
 .sign-up h2{
     margin-bottom: 20px;
@@ -414,7 +444,7 @@ form{
 }
 input[type="email"]{
     height: 40px;
-    width:auto;
+    width:90%;
     padding: 10px 20px;
     outline:none;
     border: none;
@@ -426,13 +456,20 @@ input[type="submit"]{
     color: var(--neutral-white);
     padding: 10px 30px;
     height: 40px;
-    margin-top: 10px;
+    width: 90%;
+
+    margin:10px auto;
 }
 
 
 footer{
     grid-template-columns: 1fr;
     column-gap: 0;
+    width: 100%;
+    margin: auto;
+    padding: 100% 20%;
+    font-family: sans-serif;
+    text-align: center;
     grid-template-areas: 
     "logo"
     "location"
@@ -450,104 +487,6 @@ footer{
 }
 
 }
-
-@media screen and (max-width:768px) and (min-width:481px) {
-body{
-    width: auto;
-    height: auto;
-    font-family: sans-serif;
-
-}
-.brand-logo>img{
-    width: 100px;
-}
-.nav{
-    margin-top: 25px;
-}
-header{
-    margin: 0 13px;
-}
-
-.hero{
-    width: 100%;
-    height: auto;
-
-}
-.hero img{
-       width: 400px;
-}
-.flex-begins{
-    font-size: 16px;
-    flex-direction: column;
-}
-.testimonials{
-       flex-direction: column;
-}
-.test-second-left{
-    margin-bottom: 20px;
-}
-.test-second-middle{
-    margin-bottom: 20px;
-}
-.sign-up{
-padding: 55px 80px 50px 80px;
-width: 60%;
-}
-form{
-    flex-direction: column;
-}
-input[type="email"]{
-    width: 250px;
-    height: 50px;
-    padding: 10px 30px;
-    margin: auto;
-    margin-bottom: 10px;
-}
-input[type="submit"]{
-    color: var(--neutral-white);
-    padding: 10px 30px;
-    width: 250px;
-    margin: auto;
-}
-footer{
-    grid-template-areas: 
-    "logo"
-    "location"
-    "contact"
-    "links"
-    "more-links"
-    "social-icons"
-    ;
-    padding: 200px 60px 200px 80px;
-    column-gap: 0;
-    grid-template-columns: 1fr;
-
-}
-
-
-    
-}
-
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
