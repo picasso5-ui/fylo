@@ -169,7 +169,7 @@ button:hover{
         background: var(--testimonials-bg);
         margin: 0 50px;
         padding: 30px 10px 10px 20px;
-    
+    text-align: center;
 
     }
       .test-second-right{
@@ -191,6 +191,8 @@ button:hover{
         margin-left: 10px;
         margin-bottom: 10px;
         border-radius: 5px;
+        display: block;
+
 
     
     }
@@ -358,7 +360,6 @@ color: white;
 /*mobile */
 @media screen and (max-width:375px){
     html{
-        font-size: 14px;
         width: 100%;
         align-items: center;
         padding-left: 4px;
@@ -366,10 +367,10 @@ color: white;
     
    }
    h2{
-       font-size: 20px;
+       font-size: 15px;
    }
    h3{
-       font-size: 25px;
+       font-size: 15px;
    }
    .brand-logo img{
        width: 70px;
@@ -396,7 +397,9 @@ color: white;
    .flex-begins{
        flex-direction: column;
        font-family: sans-serif;
-       font-size: 15px;
+   }
+   .any-file p,h3{
+       margin-top: 5px;
    }
    .stay{
        margin-bottom: 35px;
@@ -406,29 +409,36 @@ color: white;
     margin-top: 50px;
     
    }
-   .stay-wherever h2{
-       font-size: 25px;
+
+   .stay-wherever h3,p{
+       margin-top: 5px;
    }
    .testimonials{
        margin-top: 120px;
        flex-direction: column;
        margin-bottom: 120px;
        font-family: sans-serif;
-       font-size: 16px;
+       border-radius: 20px;
 }
 
 .test-second-left{
     margin-bottom: 20px;
     padding: 10px 40px;
+    font-size: 12px;
+
 }
 .test-second-middle{
     margin-bottom: 20px;
+    font-size: 12px;
+
 
 }
 .test-second-right{
     padding: 10px 40px;
+    font-size: 12px;
 
 }
+
 .test-second-right{
     margin-bottom: 20px;
 
@@ -469,9 +479,10 @@ footer{
     grid-template-columns: 1fr;
     column-gap: 0;
     width: 100%;
-    margin:10px 0;
+    margin:2px 0;
+    justify-content: center;
     align-items: center;
-    padding: 210px 90px ;
+    /*padding: 210px 90px ;*/
     font-family: sans-serif;
     text-align: center;
     grid-template-areas: 
@@ -484,6 +495,7 @@ footer{
     "more-links"
     "social-icons"
 ;
+line-height: 33px;
 }
 
 .footer-logo img{
